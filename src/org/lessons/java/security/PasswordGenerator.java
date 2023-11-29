@@ -26,7 +26,7 @@ Scanner keyboardReader = new Scanner(System.in);
         System.out.println("Inserisci il tuo mese di nascità!");
         monthBirth=keyboardReader.nextInt();
        int yearBirth;
-        System.out.println("Inserisci il tuo giorno di nascità!");
+        System.out.println("Inserisci il tuo anno di nascità!");
         yearBirth=keyboardReader.nextInt();
 
         //faccio la somma
@@ -39,7 +39,7 @@ Scanner keyboardReader = new Scanner(System.in);
 
 
 
-       System.out.println(favoriteColor+surnameUser+nameUser+dateBirth);
+       System.out.println("La tua password è: " +nameUser+ "-"+surnameUser+"-"+dateBirth+"-"+favoriteColor);
         //chiudo scaner
         keyboardReader.close();
     }
